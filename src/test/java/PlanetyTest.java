@@ -1,6 +1,3 @@
-package test;
-
-import static org.junit.Assert.assertEquals;
 import main.Planety;
 import org.junit.After;
 import org.junit.Before;
