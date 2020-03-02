@@ -1,1 +1,6 @@
 language: java
+jdk: openjdk11
+before_install:
+   - sudo apt-get install ant-optional
+   - sudo apt-get install junit
+#script: ant test -lib ./lib/junit-4.12.jar
