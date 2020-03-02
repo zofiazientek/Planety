@@ -22,17 +22,6 @@ public class PlanetyTest {
     }
 
     @Test
-    public void test_ziemia_delta1_method(){
-        assertEquals(1.000000063,temp.print("31557602","Ziemia"),delta1);
-    }
-
-    @Test
-    public void trivialTest() {
-        assertTrue(true);
-    }
-
-
-    @Test
     public void test_ziemia_delta2_method(){
         assertEquals(1.000000063,temp.print("31557602","Ziemia"),delta2);
     }
